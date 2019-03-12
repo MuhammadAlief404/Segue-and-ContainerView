@@ -24,25 +24,17 @@ class ContainerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        lblStock.text = "\(product?.stock)"
-        lblName.text = product?.name
-        lblHarga.text = "\(product?.price)"
+        lblStock.text = "\(product!.stock)"
+        lblName.text = "\(product!.name)"
+        lblHarga.text = "\(product!.price)"
         image.image = UIImage(named: (product?.image)!)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "atas"
+        if(segue.identifier == "segueBuy")
         {
-            
-        }
-        else if segue.identifier == "tengah"
-        {
-            
-        }
-        else if segue.identifier == "bawah"
-        {
-            
+            let destination = segue.destination as? BuyViewController
+            destination?.product = product
         }
     }
-
 }

@@ -17,6 +17,7 @@
 		054D7C062237A581007E8A13 /* lolololUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7C052237A581007E8A13 /* lolololUITests.swift */; };
 		054D7C142237ABD7007E8A13 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7C132237ABD7007E8A13 /* Product.swift */; };
 		054D7C162237ACBC007E8A13 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7C152237ACBC007E8A13 /* ContainerViewController.swift */; };
+		054D7C182237B64D007E8A13 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054D7C172237B64D007E8A13 /* BuyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		054D7C072237A581007E8A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		054D7C132237ABD7007E8A13 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		054D7C152237ACBC007E8A13 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		054D7C172237B64D007E8A13 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				054D7BE22237A580007E8A13 /* AppDelegate.swift */,
 				054D7BE42237A580007E8A13 /* ViewController.swift */,
 				054D7BE62237A580007E8A13 /* Main.storyboard */,
+				054D7C172237B64D007E8A13 /* BuyViewController.swift */,
 				054D7C152237ACBC007E8A13 /* ContainerViewController.swift */,
 				054D7BEC2237A581007E8A13 /* Assets.xcassets */,
 				054D7C132237ABD7007E8A13 /* Product.swift */,
@@ -270,6 +273,7 @@
 				054D7C162237ACBC007E8A13 /* ContainerViewController.swift in Sources */,
 				054D7BE32237A580007E8A13 /* AppDelegate.swift in Sources */,
 				054D7BEB2237A580007E8A13 /* lololol.xcdatamodeld in Sources */,
+				054D7C182237B64D007E8A13 /* BuyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
